@@ -1,0 +1,93 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #e2e8f0;
+  background: linear-gradient(135deg, #0f172a, #2563eb);
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f172a, #2563eb);
+}
+
+#root {
+  width: 100%;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  padding: 32px;
+  border-radius: 20px;
+  background: rgba(15, 23, 42, 0.8);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(18px);
+}
+
+h2 {
+  margin: 0 0 8px;
+  font-size: 1.8rem;
+}
+
+p {
+  margin-top: 0;
+  color: #cbd5e1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 12px 14px;
+  border: 1px solid #64748b;
+  border-radius: 10px;
+  background: #020617;
+  color: white;
+  outline: none;
+}
+
+button {
+  padding: 12px 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #38bdf8, #2563eb);
+  color: white;
+  font-weight: 600;
+}
+
+.message {
+  margin-top: 12px;
+  color: #86efac;
+  font-size: 0.95rem;
+}
+
+.switch-link {
+  margin-top: 14px;
+  text-align: center;
+}
+
+.switch-link a {
+  color: #38bdf8;
+  text-decoration: none;
+}
