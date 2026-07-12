@@ -10,7 +10,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
-@CrossOrigin(origins = "*")
+// @CrossOrigin(origins = "*")
+
+
+@CrossOrigin(origins = "https://your-project.vercel.app")
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
